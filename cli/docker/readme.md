@@ -16,7 +16,7 @@ Para facilitar, você pode utilizar diretamente a imagem não oficial `caiomarca
 docker run --rm --name magalu-cloud-cli -p 8095:8095 -it caiomarcatti12/magalu-cloud-cli:0.0.1
 ```
 
-Este comando irá realizar o pull da imagem para seu ambiente e em seguida inicialiar o terminal do container no modo interativo para que possa ser utilizado
+Este comando irá realizar o pull da imagem para seu ambiente e em seguida inicializar o terminal do container no modo interativo para que possa ser utilizado
 
 ## Construindo a Imagem Docker
 
