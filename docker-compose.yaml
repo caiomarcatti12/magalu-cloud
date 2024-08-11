@@ -1,0 +1,17 @@
+services:
+  mgcli:
+    container_name: mgcli
+    image: caiomarcatti12/magalu-cloud-cli:0.0.1
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    tty: true
+    ports:
+      - "8095:8095"
+    volumes:
+      - ./granato_iac-magalu-kubernetes:/app
+    environment:
+      - TF_VAR_mgc_api_key=
+      - TF_VAR_mgc_obj_key_id=
+      - TF_VAR_mgc_obj_key_secret=
+      - TF_VAR_mgc_region=

@@ -45,5 +45,3 @@ A partir deste ponto, você pode utilizar todos os comandos disponíveis na [doc
 ## Conclusão
 
 Usar o mgc CLI dentro de um container Docker não apenas oferece um ambiente isolado e portátil para gerenciar suas operações na Magalu Cloud, como também aumenta a segurança. Ao encapsular o CLI em um container Docker, você evita armazenar as credenciais diretamente nos hosts, reduzindo o risco de exposição de dados sensíveis. Esse método de isolamento garante que as informações críticas sejam mantidas em um ambiente controlado e seguro, ideal para operações que necessitam de alto nível de confidencialidade e integridade. Portanto, essa abordagem é fundamental para garantir que suas configurações de host não interfiram com as operações da CLI e protejam seus dados de acessos não autorizados.
-
-Este exemplo prático destaca como as práticas de segurança e a tecnologia de containers podem ser utilizadas para proteger eficazmente suas ferramentas e dados no ambiente de cloud.
